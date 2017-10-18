@@ -1,0 +1,25 @@
+{
+  "expo": {
+    "name": "Currency Calculator",
+    "description": "A quick app to calculate currency",
+    "slug": "tx-currency-calculator",
+    "privacy": "public",
+    "sdkVersion": "21.0.0",
+    "version": "1.0.0",
+    "orientation": "portrait",
+    "primaryColor": "#cccccc",
+    "icon": "./assets/logo.png",
+    "loading": {
+      "icon": "./assets/logo.png",
+      "backgroundColor": "#ee592e"
+
+    },
+    "ios": {
+      "supportsTablet": false,
+      "bundleIdentifier": "com.tx-currency-calculator.app"
+    },
+    "android": {
+      "package": "com.txcurrencycalculator.app"
+    }
+  }
+}

@@ -1,0 +1,24 @@
+{
+  "extends": "standard",
+  "parser": "babel-eslint",
+  "env": {
+    "browser": false, // for global functions as fetch
+    "es6": true
+  },
+  "rules": {
+    // overrides
+    "react/jsx-uses-react": "error",
+    "react/jsx-uses-vars": "error"
+  },
+  "plugins": [
+    "react"
+  ],
+  "parserOptions": {
+    "ecmaFeatures": {
+      "jsx": true
+    }
+  },
+  "globals": {
+    "fetch": false
+  }
+}
